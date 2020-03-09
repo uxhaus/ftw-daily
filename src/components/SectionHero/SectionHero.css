@@ -101,6 +101,13 @@
   @apply --marketplaceButtonStyles;
   @apply --SectionHero_animation;
 
+  background-color: var(--marketplaceColorLight);
+  color: var(--marketplaceColorDark);
+  &:hover,
+    &:focus {
+      background-color: #e7e7e7;
+    }
+
   animation-delay: 0.8s;
 
   @media (--viewportMedium) {
